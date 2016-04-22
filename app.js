@@ -5,8 +5,8 @@ var express = require("express"),
     morgan = require("morgan"),
     routes = require("./routes");
 
+/// THIS IS A TERRIBLE COMMENT 
 
-// This is where I will add my middleware!
 
 app.set('view engine', 'jade');
 app.use(morgan('dev'));
