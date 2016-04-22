@@ -9,7 +9,8 @@ block content
     i.glyphicon.glyphicon-pencil
 
   each puppy in puppies
-    h2 Name/Age - #{puppy.name}, #{puppy.age}
+    h2 Name -  #{puppy.name}
+    h4 Age - #{puppy.age}
 
     p
       a(href="/puppies/#{puppy.id}") See some more about #{puppy.name}
