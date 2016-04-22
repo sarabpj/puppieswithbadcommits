@@ -5,7 +5,9 @@ var express = require("express"),
     morgan = require("morgan"),
     routes = require("./routes");
 
-// This is where you setup middleware
+
+// This is where I will add my middleware!
+
 app.set('view engine', 'jade');
 app.use(morgan('dev'));
 app.use(express.static(__dirname + '/public'));
